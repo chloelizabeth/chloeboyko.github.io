@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Didot";
+    src: url(../fonts/Didot.ttf);
+}
+
+html.backdrop {
+background-repeat: no-repeat;
+background-attachment:fixed;
+height:100%;
+background: #f7cbb6; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7cbb6 0%, #dcddde 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7cbb6 0%,#dcddde 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7cbb6 0%,#dcddde 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7cbb6', endColorstr='#dcddde',GradientType=0 ); /* IE6-9 */
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#wrapper {
+  width: 1133px;
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1181px;
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+
+
+html, body {position: relative}
+
+#logo {
+    position: fixed;
+    z-index: 1;
+
+}
+
+
+
+#topbar {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    height: 80px;
+}
+
+#links {
+  display: inline;
+}
+
+div.row_1 {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.row_1 img {
+display: inline;
+margin-top: 123px;
+padding-left: 65px;
+}
+
+div.row_2 {
+margin-left: 98px;
+margin-top: 120px;
+}
+
+div.row_2 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Didot", Arial;
+  font-style: italic;
+}
+
+div.row_3 {
+  width: 25.7%;
+  float: right;
+  position: relative;
+  top: -105px;
+}
+
+
+div.row_3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Didot", Arial;
+  font-style: italic;
+}
+
+div.row_3 a:after {
+  content: "";
+  display: block;
+  height: 15px;
+  width: 1px;
+}
