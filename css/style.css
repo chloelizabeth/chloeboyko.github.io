@@ -387,11 +387,12 @@ div.row_3 {
 
 /* ----------- iPhone 6 ----------- */
 
-/* Portrait and Landscape */
+/* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
 
 
 #wrapper {
@@ -429,18 +430,89 @@ width: 89%;
 #logo img {
   width: 150px;
   height: 150px;
-}        
+}     
+
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}   
 
 }
 
 
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+div.row_1 img {
+        width: 295px;
+        margin-left: auto;
+        margin-right: auto;
+    
+      
+    }
+
+div.row_1 {
+  padding-top: 0px;
+  margin: 0 auto;
+  width: 89%;
+}
+
+#logo {
+  position: ;
+}
+
+#topbar {
+  position: ;
+}
+
+div.row_3 {
+  float: left;
+  display: inline;
+  top: -383px;
+  left: 421px;
+}
+
+div.row_3 img {
+        width: 20px;
+    }
+
+div.row_2 img {
+        width: 20px;
+    }
+#wrapper {
+  width: 774px;
+  margin: auto;
+}
+
+div.row_2 {
+  display: inline;
+  position: relative;
+  left: 206px;
+  top: -174px;
+  margin-left: 0px;
+  
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+  }
+
+
 /* ----------- iPhone 5 and 5S ----------- */
 
-/* Portrait and Landscape */
+/* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
 
 div.row_2 {
   left: 25px;
@@ -478,6 +550,73 @@ width: 89%;
 a {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+div.row_1 img {
+        width: 295px;
+        margin-left: auto;
+        margin-right: auto;
+    
+      
+    }
+
+div.row_1 {
+  padding-top: 0px;
+  margin: 0 auto;
+  width: 89%;
+}
+
+#logo {
+  position: ;
+}
+
+#topbar {
+  position: ;
+}
+
+div.row_3 {
+  float: left;
+  display: inline;
+  top: -383px;
+  left: 421px;
+}
+
+div.row_3 img {
+        width: 20px;
+    }
+
+div.row_2 img {
+        width: 20px;
+    }
+#wrapper {
+  width: 774px;
+  margin: auto;
+}
+
+div.row_2 {
+  display: inline;
+  position: relative;
+  left: 206px;
+  top: -174px;
+  margin-left: 0px;
+  
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+  }
 
 }
 
