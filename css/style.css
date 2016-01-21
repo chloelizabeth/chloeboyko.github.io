@@ -36,6 +36,7 @@ body {
 }
 
 
+.mobileshow { display: none;}
 
 html, body {
 
@@ -133,6 +134,10 @@ div.row_3 a:after {
 
     div.row_2 {
         margin-left: 86px;
+    }
+
+    img.description{
+      visibility: hidden;
     }
 
     
@@ -395,6 +400,16 @@ div.row_3 {
   and (orientation: portrait) { 
 
 
+.mobileshow { 
+ display: inline;
+
+}
+
+.mobileshow img.caption{
+  position: relative;
+  top: -96px;
+}
+
 #wrapper {
   width: 73%;
 }
@@ -454,6 +469,18 @@ div.row_1 img {
     
       
     }
+
+
+.mobileshow { 
+ display: inline;
+
+}
+
+.mobileshow img.caption{
+  position: relative;
+  top: -96px;
+}
+
 
 div.row_1 {
   padding-top: 0px;
@@ -521,6 +548,17 @@ div.row_2 {
   padding-bottom: 120px;
 }
 
+.mobileshow { 
+ display: inline;
+
+}
+
+.mobileshow img.caption{
+  position: relative;
+  top: -96px;
+}
+
+
 div.row_2 img {
 width: 5%; 
 
@@ -568,6 +606,16 @@ div.row_1 img {
     
       
     }
+
+.mobileshow { 
+ display: inline;
+
+}
+
+.mobileshow img.caption{
+  position: relative;
+  top: -96px;
+}    
 
 div.row_1 {
   padding-top: 0px;
@@ -620,4 +668,23 @@ a {
 
 }
 
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.mobileshow { 
+ display: inline;
+
+}
+
+.mobileshow img.caption{
+  position: relative;
+  top: -96px;
+}
+
+
+}
 
