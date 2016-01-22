@@ -223,7 +223,7 @@ div.row_2 {
   display: inline;
   position: relative;
   left: 206px;
-  top: -174px;
+  top: -232px;
   margin-left: 0px;
   
 }
@@ -297,6 +297,7 @@ div.row_2 {
 div.row_1 img {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 80px;
 }
 
 div.row_1 {
@@ -723,38 +724,41 @@ display: none;
 
 }
 div.row_1 img {
-  width: 43%;
-  padding-left: 115px;
-  margin-top: 230px;
+  width: 24%;
+  padding-left: 143px;
+  margin-top: 89px;
 }
 
-
+div.row_1 {
+  width: 2025px;
+  margin-left: ;
+}
 
 div.row_3 {
-  top: -1162px;
-  right: 221px;
+  top: -85px;
+  right: -739px;
 }
 
 div.row_3 img {
-  width: 50px;
+  width: 30px;
 }
 
 div.row_3 a {
-  font-size: 55px;
+  font-size: 41px;
 }
 
 div.row_2 a {
-  font-size: 55px;
+  font-size: 41px;
 }
 
 div.row_2 img {
-  width: 50px;
+  width: 33px;
 }
 
 div.row_2 {
   position: relative;
-  top: -200px;
-  right: -1002px;
+  top: 103px;
+  right: -175px;
   margin-left: 0px;
 }
 
