@@ -416,7 +416,7 @@ div.row_3 {
 
 div.row_2 {
   left: 25px;
-  top: 238px;
+  top: 300px;
   font-size: 32px;
   padding-bottom: 120px;
 }
@@ -428,7 +428,7 @@ width: 5%;
 
 div.row_3 {
   left: 26px;
-  top: 8px;
+  top: 65px;
   font-size: 32px;
 }
 
@@ -471,14 +471,14 @@ div.row_1 img {
     }
 
 
-.mobileshow { 
- display: inline;
+.mobilehide { 
+display: none;
 
 }
 
-.mobileshow img.caption{
-  position: relative;
-  top: -96px;
+.mobileshow { 
+ display: inline;
+
 }
 
 
@@ -543,19 +543,19 @@ a {
 
 div.row_2 {
   left: 25px;
-  top: 238px;
+  top: 300px;
   font-size: 32px;
   padding-bottom: 120px;
+}
+
+.mobilehide { 
+display: none;
+
 }
 
 .mobileshow { 
  display: inline;
 
-}
-
-.mobileshow img.caption{
-  position: relative;
-  top: -96px;
 }
 
 
@@ -566,7 +566,7 @@ width: 5%;
 
 div.row_3 {
   left: 26px;
-  top: 8px;
+  top: 65px;
   font-size: 32px;
 }
 
@@ -607,15 +607,17 @@ div.row_1 img {
       
     }
 
+ .mobilehide { 
+display: none;
+
+}   
+
 .mobileshow { 
  display: inline;
 
 }
 
-.mobileshow img.caption{
-  position: relative;
-  top: -96px;
-}    
+   
 
 div.row_1 {
   padding-top: 0px;
@@ -662,29 +664,101 @@ div.row_2 {
 a {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
-
-  }
-
 }
 
+
+
 /* ----------- iPad 1 and 2 ----------- */
-/* Portrait and Landscape */
+/* Portrait */
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
+  and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+ .mobilehide { 
+display: none;
+
+}   
 
 .mobileshow { 
  display: inline;
 
 }
 
-.mobileshow img.caption{
+div.row_1 img {
+  padding-left: 47px;
+  margin-top: 85px;
+  margin-right: 10px;
+}
+
+#wrapper {
+  width: 823px;
+}
+
+div.row_3 {
+  left: 462px;
+}
+
+div.row_2 {
+  left: 236px;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+ 
+
+ .mobilehide { 
+display: none;
+
+}   
+
+.mobileshow { 
+ display: inline;
+
+}
+div.row_1 img {
+  width: 43%;
+  padding-left: 115px;
+  margin-top: 230px;
+}
+
+
+
+div.row_3 {
+  top: -1162px;
+  right: 221px;
+}
+
+div.row_3 img {
+  width: 50px;
+}
+
+div.row_3 a {
+  font-size: 55px;
+}
+
+div.row_2 a {
+  font-size: 55px;
+}
+
+div.row_2 img {
+  width: 50px;
+}
+
+div.row_2 {
   position: relative;
-  top: -96px;
+  top: -200px;
+  right: -1002px;
+  margin-left: 0px;
+}
+
 }
 
 
-}
 
